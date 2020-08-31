@@ -9,6 +9,7 @@
  * @author joao_vitor
  */
 public class TesteRegex {
+    
     public static void main(String[] args) {
         String regex= "^\\d{1,12}+(\\,)?+(\\d{0,2})$";
         System.out.println("teste1".matches(regex));
